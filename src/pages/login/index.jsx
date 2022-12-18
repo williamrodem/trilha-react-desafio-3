@@ -18,6 +18,12 @@ const Login = () => {
         reValidateMode: 'onChange',
         mode: 'onChange',
     });
+    
+
+
+    const handleClickregister = () => {
+        navigate('/register')
+    }
 
     const onSubmit = async (formData) => {
         try{
@@ -56,7 +62,10 @@ const Login = () => {
                 </form>
                 <Row>
                     <EsqueciText>Esqueci minha senha</EsqueciText>
-                    <CriarText>Criar Conta</CriarText>
+                    <a>
+                    <CriarText onClick={handleClickregister}>Criar Conta</CriarText>
+                    </a>
+                   
                 </Row>
                 </Wrapper>
             </Column>

@@ -3,9 +3,8 @@ import styled  from 'styled-components';
 export const Container = styled.div`
    
     width: 100%;
-    max-width: 80%;
-    height: 47px;
-
+    max-width: 95%;
+    height: 48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,11 +50,14 @@ export const Menu = styled.a`
 export const MenuRight = styled.a`
     font-family: 'Open Sans';
     font-style: normal;
-    font-size: 12px;
-    line-height: 25px;
+    font-size: 17px;
+    line-height: 26px;
+
     color: #FFFFFF;
-    margin-right: 12px;
+    margin-right: 20px;
     text-decoration: none;
+    flex-wrap: wrap;
+    
 `
 
 export const UserPicture = styled.img`

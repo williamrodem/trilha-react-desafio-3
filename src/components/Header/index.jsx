@@ -27,8 +27,12 @@ const Header = ({autenticado}) => {
               ) : (
               <>
                 <MenuRight href="/">Home</MenuRight>
+                <MenuRight href="/">Catalog</MenuRight>
+                <MenuRight href="/">Plans</MenuRight>
+                <MenuRight href="/">For Enterprises</MenuRight>
                 <Button title="Entrar" />
                 <Button title="Cadastrar" />
+                
               </>)}
           </Row>
       </Container>
